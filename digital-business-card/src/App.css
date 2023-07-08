@@ -1,0 +1,26 @@
+* {
+    font-family: inter, sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.main-content {
+    width: 550px;
+    height: 868px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 44px;
+    background-color: rgba(35, 37, 44, 1);
+}
+
+.card {
+    width: 317px;
+    height: 780px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(26, 27, 33, 1);
+    border-radius: 10px;
+}
