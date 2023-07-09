@@ -1,26 +1,12 @@
-import profile from '../images/profile.jpeg'
-import Mail from '../images/Mail.png'
-import linkedin from '../images/linkedin.png'
-import '../components/About.css'
+import './About.css'
 
 export default function About() {
     return (
-        <div className = 'about'>
-            <img className = 'profile-img'src={profile}/>
-            <div className ='name'>
-                <h1>Jake Moretz</h1>
-                <h3>Frontend Developer</h3>
-            </div>
-            <div className="links">
-                <button className="email-btn">
-                    <img src={Mail}/>
-                    <p>Email</p>
-                </button>
-                <button className="linkedin-btn">
-                    <img src={linkedin} />
-                    <p>Linkedin</p>
-                </button>
-            </div>
+        <div className = 'about-section'>
+            <h2>About</h2>
+            <p>Enthusiastic and motivated junior front-end web developer with a strong foundation 
+                in front-end technologies and a passion for creating visually appealing and 
+                user-friendly websites.</p>
         </div>
     )
 }
