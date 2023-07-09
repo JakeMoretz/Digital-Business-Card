@@ -1,0 +1,74 @@
+.profile-img {
+    height: 300px;
+    width: 317px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.name {
+    text-align: center;
+}
+
+.name > h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 0;
+    margin-top: 21px;
+}
+
+.name > h3 {
+    color: rgba(243, 191, 153, 1);
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 6px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.email-btn,
+.linkedin-btn {
+    height: 35px;
+    width: 115px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.email-btn {
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+.linkedin-btn {
+    margin-right: 35px;
+    background-color: rgba(80, 147, 226, 1);
+    cursor: pointer;
+}
+
+.email-btn > p {
+    padding-left: 8px;
+    font-size: 14px;
+}
+
+.linkedin-btn > p {
+    padding-left: 8px;
+    color: rgb(249, 246, 246);
+    font-size: 14px;
+}
+
+.email-btn > img {
+    height: 16px;
+    width: 16px;
+}
+
+.linkedin-btn > img {
+    height: 16px;
+    width: 16px;
+}

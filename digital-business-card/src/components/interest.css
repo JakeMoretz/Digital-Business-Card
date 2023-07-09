@@ -1,0 +1,19 @@
+.interest-section {
+    color: white;
+    margin-left: 34px;
+    margin-right: 34px;
+}
+
+.interest-section > h2 {
+    font-weight: 400;
+    font-size: 19px;
+    margin-bottom: 0;
+}
+
+.interest-section > p {
+    font-size: 12px;
+    line-height: 1.5;
+    margin-top: 5px;
+    color:rgba(141, 141, 141, 1);
+    padding-bottom: 30px;
+}
