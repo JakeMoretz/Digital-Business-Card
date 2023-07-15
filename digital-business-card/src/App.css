@@ -9,7 +9,7 @@ body {
 
 .main-content {
     width: 550px;
-    height: 868px;
+    height: 100vh;
     margin-left: auto;
     margin-right: auto;
     padding-top: 44px;
